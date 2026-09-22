@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Python bytecode and tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Python environments and build artifacts
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Arduino CLI build output
+esp/build/
+esp/.arduino-cli/
+
+# Editor settings
+.vscode/
+.idea/
